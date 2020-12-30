@@ -3,7 +3,7 @@
 Introduction
  - This program was developed in the Fall of 2020 in collaboaration with other students in class at the University of Wisconsin-Madison.
  - The purpose of this program is to simulate a high level version of a modern calorie tracker, such as MyFitnessPal.
- - This project was developed almost entirely using java based programming (JUnit testing and JavaFX for the front end) with the exception of some miscelanous components 
+ - This project was developed almost entirely using Java based programming (JUnit testing and JavaFX for the front end) with the exception of some miscelanous components 
    (specifically, Make for construction and CSS for styling within JavaFX).
  
 How it Works
@@ -13,8 +13,11 @@ How it Works
    calculating the average and total nutritional information of all the items in their "cart."
 
 How to Use
- - The FoodNutritionCalculator is fully executable within linux via Make. Simply type "make" into the command line (while being within the project directory) to run the program.
- - As long as you are operating within the project directory using a Linux machine, the front end interface should launch shortly after the java files are compiled.
+ - The FoodNutritionCalculator is fully executable within Linux via Make. Simply type "make" into the command line (while being within the project directory) to run the program.
+ - As long as you are operating within the project directory using a Linux machine, the front end interface should launch shortly after the Java files are compiled, and JUnit    
+   tests are run.
+ - Please note that these instructions assume that the user already has Make installed.
+ - To only run the front end (without the tests), the user can use the make target runFrontEnd (type "make runFrontEnd" in the command line).
  - Directions on how to use the interface are avaliable upon launch.
 
  
