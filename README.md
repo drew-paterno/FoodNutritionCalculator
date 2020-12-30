@@ -2,7 +2,7 @@
 
 Introduction
  - This program was developed in the Fall of 2020 in collaboration with other students in class at the University of Wisconsin-Madison.
- - The purpose of this program is to simulate a high level version of a modern calorie tracker, such as MyFitnessPal.
+ - The purpose of this program is to simulate a modern calorie tracker, such as MyFitnessPal, at a high level.
  - This project was developed almost entirely using Java based programming (JUnit testing and JavaFX for the front end) with the exception of some miscellaneous components (specifically, Make for construction and CSS for styling within JavaFX).
  
 How it Works
