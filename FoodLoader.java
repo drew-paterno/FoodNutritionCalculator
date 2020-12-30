@@ -1,10 +1,4 @@
-// --== CS400 File Header Information ==--
-// Name: Andy Lin
-// Email: <alin47@wisc.edu>
-// Team: <NB>
-// TA: <Daniel Finer>
-// Lecturer: <Gary Dahl>
-// Notes to Grader: <optional extra notes>
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;

@@ -1,15 +1,9 @@
-// --== CS400 File Header Information ==--
-// Name: <Jiaming Zhang>
-// Email: <jzhang2254@wisc.edu>
-// Team: <NB>
-// TA: <Daniel Finer>
-// Lecturer: <Florian Heimerl>
-// Notes to Grader: <optional extra notes>
+
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
 /**
  * A hash table class that implements the MapADT
- * @author Jiaming Zhang
+ * @author Drew Paterno
  *
  * @param <KeyType> generic type for key
  * @param <ValueType> generic type for value

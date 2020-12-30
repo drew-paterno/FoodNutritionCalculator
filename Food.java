@@ -1,10 +1,3 @@
-// --== CS400 File Header Information ==--
-// Name: Andy Lin
-// Email: <alin47@wisc.edu>
-// Team: <NB>
-// TA: <Daniel Finer>
-// Lecturer: <Gary Dahl>
-// Notes to Grader: <optional extra notes>
 
 /**
  * A class of object Food that is used to contain all the information about a certain

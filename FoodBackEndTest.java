@@ -1,10 +1,4 @@
-// --== CS400 File Header Information ==--
-// Name: Ivan Man
-// Email: igman@wisc.edu
-// Team: NB
-// TA: Daniel
-// Lecturer: Florian Heimerl
-// Notes to Grader: NONE
+
 import static org.junit.jupiter.api.Assertions.*;
 import java.io.FileNotFoundException;
 import java.io.IOException;

@@ -1,17 +1,10 @@
-// --== CS400 File Header Information ==--
-// Name: Ivan Man
-// Email: igman@wisc.edu
-// Team: NB
-// TA: Daniel
-// Lecturer: Florian Heimerl
-// Notes to Grader: NONE
+
 import static org.junit.jupiter.api.Assertions.*;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Hashtable;
 import org.junit.jupiter.api.Test;
-// import com.sun.java.util.jar.pack.Package.File;
 import java.io.File;
 
 class TestLoadFood {

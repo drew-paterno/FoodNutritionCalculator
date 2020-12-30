@@ -1,11 +1,3 @@
-// --== CS400 File Header Information ==--
-// Name: Drew Paterno
-// Email: dpaterno@wisc.edu
-// Team: NB
-// Role: Front End Developer 2
-// TA: Daniel Finer
-// Lecturer: Florian Heimerl
-// Notes to Grader: None.
 
 import java.util.ArrayList;
 import javafx.application.Application;

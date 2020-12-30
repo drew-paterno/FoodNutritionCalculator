@@ -1,13 +1,3 @@
-// --== CS400 File Header Information ==--
-// Name: Drew Paterno
-// Email: dpaterno@wisc.edu
-// Team: NB
-// Role: Data Wrangler 2
-// TA: Dainel Finer (dfiner@wisc.edu)
-// Lecturer: Florian Heimerl
-// Notes to Grader: This code is different that what I submitted in the individual assignment, I
-// found some bugs in my old code, and I also made the enforce and rotation methods much more clean
-// and efficient.
 
 import java.util.LinkedList;
 
