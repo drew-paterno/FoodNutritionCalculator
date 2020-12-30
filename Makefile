@@ -1,4 +1,4 @@
-run: compile test run clean
+run: compile test runFrontEnd
 	
 compile:
 	javac HashTableMap.java
@@ -13,8 +13,9 @@ test:
 	javac -cp .:junit5.jar FoodBackEndTest.java
 	java -jar junit5.jar --class-path . --scan-classpath --details tree
 
-run: FrontEnd.class
+runFrontEnd: FrontEnd.class
 	java --module-path JavaFXForLinux/ --add-modules javafx.controls FrontEnd
+	make clean
 
 FrontEnd.class: FrontEnd.java
 	javac --module-path JavaFXForLinux/ --add-modules javafx.controls FrontEnd.java

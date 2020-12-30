@@ -1,6 +1,7 @@
 
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
+
 /**
  * A hash table class that implements the MapADT
  * @author Drew Paterno
@@ -12,6 +13,47 @@ public class HashTableMap<KeyType, ValueType> {
 
 	private int size;
 	protected LinkedList<Node>[] hashTable;
+	
+	/**
+	 * a node class to bind key and value into a pair
+	 * @author Drew Paterno
+	 *
+	 * @param <KeyType> 
+	 * @param <ValueType>
+	 */
+	protected class Node<KeyType, ValueType> {
+
+	    private Object key;
+	    private Object value;
+	        
+	    /**
+	     * constructor, assign values to key and value
+	     * @param key
+	     * @param value
+	     */
+	    public Node(KeyType key, ValueType value) {
+	        this.key = key;
+	        this.value = value;
+	    }
+
+	    /**
+	     * getter for key
+	     * @return the reference to key
+	     */
+	    public Object getKey() {
+	        return key;
+	    }
+
+	    /**
+	     * getter for value
+	     * @return the reference to value
+	     */
+	    public Object getValue() {
+	        return value;
+	    }
+
+	}
+	
     /**
      * A helper method to print out the contents of this hash table
      */
